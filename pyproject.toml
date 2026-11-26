@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cfd-mt5-bot"
+version = "0.1.0"
+description = "Leverage-aware, preventive cost-guarded MT5 CFD trading bot framework"
+requires-python = ">=3.11"
+dependencies = [
+    "MetaTrader5>=5.0.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "starlette>=0.40.0",
+    "uvicorn>=0.30.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

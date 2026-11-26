@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.env
+*.log
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+data/
+logs/
+ui/node_modules/
+ui/dist/
+*.tsbuildinfo

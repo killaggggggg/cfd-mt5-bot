@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Example FOMC Rate Decision",
+    "currency": "USD",
+    "impact": "HIGH",
+    "date": "2026-12-16T19:00:00+00:00"
+  },
+  {
+    "title": "Example Broker Year-End Holiday",
+    "currency": "ALL",
+    "impact": "HOLIDAY",
+    "date": "2026-12-25",
+    "major": true
+  }
+]
