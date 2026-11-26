@@ -7,8 +7,8 @@ venv/
 dist/
 build/
 *.egg-info/
-data/
-logs/
+/data/
+/logs/
 ui/node_modules/
 ui/dist/
 *.tsbuildinfo
